@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0ed4eff0-25c1-54e6-8f6b-f521bc083fb3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:01:21Z",
+    "component": {
+      "type": "application",
+      "name": "K_SHERLOCK",
+      "version": "e40a45ec2a07",
+      "bom-ref": "pkg:generic/anticloud/K_SHERLOCK@e40a45ec2a07",
+      "purl": "pkg:generic/anticloud/K_SHERLOCK@e40a45ec2a07",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "e40a45ec2a074b90703b3b4b842c8a3adbd6ada3"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/sherlock-project/sherlock.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}

@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "K_SHERLOCK",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sherlock-project/sherlock",
+  "commit": "e40a45ec2a07",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project K_SHERLOCK provides 56 tracked files across ['Python', 'Shell'] with 2217 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5367,
+        "latency_ms": 43.0
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5367,
+        "latency_ms": 42.51
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5367,
+        "latency_ms": 38.98
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 41.5,
+    "status": "PASS",
+    "language_diversity": 2,
+    "primary_language": "Python",
+    "fairness_keywords_found": false
+  }
+}

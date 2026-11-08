@@ -1,0 +1,51 @@
+{
+  "benchmark": "SLSA_Lab_Results",
+  "project": "K_SHERLOCK",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sherlock-project/sherlock",
+  "commit": "e40a45ec2a07",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "SLSA v1.1 \u2014 Supply Chain Levels for Software Artifacts",
+    "source": "https://openssf.org/projects/slsa/",
+    "achieved_level": 0,
+    "max_level": 3,
+    "checks": [
+      {
+        "check": "L1_provenance_exists",
+        "pass": false
+      },
+      {
+        "check": "L1_build_process_documented",
+        "pass": false
+      },
+      {
+        "check": "L2_hosted_build",
+        "pass": false
+      },
+      {
+        "check": "L2_signed_provenance",
+        "pass": true
+      },
+      {
+        "check": "L3_build_isolation",
+        "pass": false
+      },
+      {
+        "check": "L3_reproducible_build",
+        "pass": false
+      }
+    ],
+    "l1_pass": false,
+    "l2_pass": false,
+    "l3_pass": false,
+    "status": "FAIL"
+  }
+}

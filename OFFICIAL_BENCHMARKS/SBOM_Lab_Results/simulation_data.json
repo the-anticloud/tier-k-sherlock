@@ -1,0 +1,21 @@
+{
+  "benchmark": "SBOM_Lab_Results",
+  "project": "K_SHERLOCK",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 308251892,
+    "simulated_inference_latency_ms": 22.22,
+    "simulated_throughput_samples_per_sec": 45.0,
+    "simulated_accuracy": 0.7699,
+    "simulated_avg_token_count": 51,
+    "simulated_memory_mb": 45.9,
+    "simulation_basis": {
+      "source_lines": 2217,
+      "tracked_files": 56,
+      "has_tests": false,
+      "has_ci": false,
+      "size_mb": 1.31
+    }
+  }
+}
