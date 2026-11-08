@@ -1,0 +1,42 @@
+{
+  "benchmark": "PAX_Results_Lab_Results",
+  "project": "K_SHERLOCK",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "K_SHERLOCK",
+    "slug": "sherlock-project/sherlock",
+    "commit": "e40a45ec2a07",
+    "tracked_files": 56,
+    "source_lines": 2217,
+    "licence": "MIT",
+    "size_mb": 1.31
+  },
+  "inputs_hash": "9edb592bfd2643f86b7e365a934517e643cc43ed2829181371b88694e15abd24",
+  "outputs": {
+    "results_file": "TIER_4_INFERENCE_AGENTS\\K_SHERLOCK\\OFFICIAL_BENCHMARKS\\PAX_Results_Lab_Results\\results.json",
+    "results_sha256": "817b14ccc0593dc9c08d14a77432878ea49d5280086f099b1e176e033d7bd5ce"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/PAX_Results_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

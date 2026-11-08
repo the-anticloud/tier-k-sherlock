@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_SHERLOCK",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sherlock-project/sherlock",
+  "commit": "e40a45ec2a07",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 44.89,
+      "min": 38.27,
+      "max": 52.05,
+      "all": [
+        52.05,
+        42.3,
+        38.27,
+        45.36,
+        46.47
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_SHERLOCK (sherlock-project/sherlock) \u2014 56 files, 2217 source lines, licence MIT, primary language ['Python']",
+      "token_count": 31,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "sherlock",
+        "(",
+        "sherlock",
+        "-",
+        "project",
+        "/",
+        "sherlock",
+        ")",
+        "\u2014",
+        "56",
+        "files",
+        ",",
+        "221",
+        "##7",
+        "source",
+        "lines",
+        ","
+      ],
+      "tokenization_latency_ms": 2.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5841,
+      "classification_latency_ms": 115.0,
+      "status": "PASS"
+    }
+  }
+}
