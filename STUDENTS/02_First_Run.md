@@ -1,0 +1,30 @@
+# first run, with expected output
+
+**Project:** `K_SHERLOCK`  
+**Tier:** TIER_6_SECURITY_EVAL  
+**Identity:** Upstream `sherlock-project/sherlock` @ `e40a45ec2a07` (MIT)
+
+## Purpose
+
+Learning paths, first steps, and safe defaults.
+
+## This project
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `sherlock-project/sherlock` |
+| Commit | `e40a45ec2a074b90703b3b4b842c8a3adbd6ada3` |
+| Upstream licence | MIT |
+| Licence class | permissive |
+| Clone size | 1.31 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1500.0 IIU |
+| Verified upstream edits | 1 |
+
+## Known gaps
+
+Everything above is read from an artifact. Where this document says
+`NOT YET MEASURED`, the value has not been measured for `K_SHERLOCK` as of
+generation. Filling those in requires a run or a decision, not editing.

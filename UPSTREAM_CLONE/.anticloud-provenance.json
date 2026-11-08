@@ -1,0 +1,18 @@
+{
+  "name": "K_SHERLOCK",
+  "slug": "sherlock-project/sherlock",
+  "url": "https://github.com/sherlock-project/sherlock",
+  "tier": 6,
+  "domain": "osint",
+  "role": "username OSINT across 300+ sites",
+  "commit": "e40a45ec2a074b90703b3b4b842c8a3adbd6ada3",
+  "commit_date": "2026-09-26T14:37:28+02:00",
+  "licence": "MIT",
+  "licence_file": "LICENSE",
+  "licence_class": "permissive",
+  "vendored_at": "2026-09-30T05:46:39.189573+00:00",
+  "depth": 1,
+  "size_mb": 1.31,
+  "ok": true,
+  "error": ""
+}
